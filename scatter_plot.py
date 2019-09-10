@@ -89,4 +89,6 @@ def scatter_plot(DataFrame, x, y):
 	fig.canvas.mpl_connect('pick_event',lambda event: onpick(event,x,y, DataFrame))
 	plt.show()
 
+# Enter the repository with the experiment and 
+
 scatter_plot(dfp, 'Ecc','v')
